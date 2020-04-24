@@ -1,0 +1,178 @@
+#arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden
+}
+.banner-img{
+    width: 100%;
+}
+.banner-ribbon{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    background-color:  rgba(109, 109, 109, 0.5);
+}
+.banner-title{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-25%, -75%);
+}
+.banner-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /*background-color: rgba(214, 214, 214, 0.5);*/
+    background-color:  rgba(109, 109, 109, 0.5);
+    padding: 15px;
+    text-decoration: black;
+    /*text-shadow: 2px 2px 2px 2px rgba(159, 168, 170, .5);*/
+    
+    text-shadow: -1px 1px 0 rgba(159, 168, 170, 0.5),
+				1px 1px 0 rgba(159, 168, 170, 0.5),
+                1px -1px 0 rgba(159, 168, 170, 0.5),
+                -1px 1px 0 rgba(159, 168, 170, 0.5);
+    
+    /*width: 90%;
+    height: 300px;
+    text-align: center;*/
+
+    /*vertical-align: center;*/
+    /*ask about vertical text align*/
+
+    /*overflow: auto;*/
+    
+    /*display: inherit;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.black{
+    color: black;
+}
+
+body{
+    margin: 0;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+}
+.button:hover{
+    font-style: italic;
+}
+
+#decno{
+    text-decoration: none;
+    list-style: none;
+}
+
+.framed{
+    margin: 15px;
+    background-color: rgb(233, 232, 233);
+    padding: 20px;
+}
+
+
+.lim{
+    height: 650px;
+    min-width: 1440px;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+}
+.logo a{
+    text-decoration: none;
+    /*color: rgb(77, 192, 134);*/
+    color: #67a99f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo a:hover{
+    font-style: italic;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.main-txt{
+    margin: 25px;
+    padding: 25px;
+    background-color: #6f6462;
+}
+
+.nav{
+    background-color: rgb(240, 240, 240);
+    list-style: none;
+    color: slategray;
+    text-align: right;
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+    padding: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: slategray;
+}
+.nav li a:hover{
+    /*color: rgb(77, 192, 134);*/
+    color: #6f6fa5;
+    font-weight: bold;
+}
+
+.overlay{
+    background-color: rgba(240, 240, 240, .75);
+    margin: 25px 50px 25px 50px;
+    padding: 25px 50px 25px 50px;
+
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.15),
+				1px 1px 0 rgba(255, 255, 255, 0.15),
+                1px -1px 0 rgba(255, 255, 255, 0.15),
+                -1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.small-square{
+    height: 250px;
+    width: 250px;
+}
+
+table{
+    *width: 100%;
+    display: inline-block;
+}
+table th{
+    text-align: center;
+}
+
+#white{
+    color: white;
+}
